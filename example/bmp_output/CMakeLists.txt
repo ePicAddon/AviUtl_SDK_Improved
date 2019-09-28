@@ -1,5 +1,4 @@
 set(plg_name bmp_output)
-add_custom_target(${plg_name} ALL)
 include_directories(.)
 
 add_library(${plg_name}.auo SHARED

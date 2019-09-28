@@ -1,5 +1,4 @@
 set(plg_name edit_filter)
-add_custom_target(${plg_name} ALL)
 include_directories(.)
 add_library(${plg_name}.auf SHARED
     edit_filter.cpp
